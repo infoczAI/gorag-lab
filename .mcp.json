@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "gorag-lab-docs": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "."
+      ]
+    }
+  }
+}

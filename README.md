@@ -174,6 +174,30 @@ references/
 
 ---
 
+## Claude Code에서 활용하기
+
+이 저장소는 [MCP(Model Context Protocol)](https://modelcontextprotocol.io/) 설정이 포함되어 있어, Claude Code 사용 시 문서를 참조 자료로 활용할 수 있습니다.
+
+### 사용 방법
+
+1. 이 저장소를 clone합니다
+2. 저장소 디렉토리에서 Claude Code를 실행합니다
+3. MCP 서버 활성화를 승인합니다
+
+이후 개발 중 다음과 같은 질문을 하면 문서를 참조하여 답변합니다:
+
+- "온톨로지와 스키마의 차이가 뭐야?"
+- "Graph RAG 설계할 때 주의할 점 알려줘"
+- "TBox/ABox 분리가 왜 필요해?"
+
+### 활용 시나리오
+
+- **설계 검토**: 새로운 도메인 모델링 시 기존 패턴 참조
+- **코드 리뷰**: Knowledge Graph 관련 코드 작성 시 설계 원칙 확인
+- **온보딩**: 신규 팀원이 프로젝트 컨텍스트 파악
+
+---
+
 ## 라이선스
 
 MIT License  
