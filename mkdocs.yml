@@ -1,6 +1,7 @@
 site_name: GoRAG Lab
 site_description: Knowledge Graph & Ontology 기반 문제 해결을 실무에서 다루는 엔지니어링 플레이북
 site_author: GoRAG Team
+site_url: https://infoczai.github.io/gorag-lab/
 
 repo_name: gorag-lab
 repo_url: https://github.com/infoczAI/gorag-lab.git
