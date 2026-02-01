@@ -59,12 +59,21 @@ nav:
   - Knowledge Graph:
       - 개념 중심 모델링: 02-knowledge-graph/01-concept-centric-modeling.md
       - 규칙, 제약, 계산의 표현: 02-knowledge-graph/02-relations-rules-and-constraints.md
-  # - Graph RAG:
-  #     - Vector-only RAG의 한계: 03-graph-rag/01-vector-rag-limitations.md
-  # - Agents:
-  #     - Agent 역할 분리 전략: 04-agents/01-agent-role-separation.md
-  # - Case Studies:
-  #     - 문서 분석 도메인: 05-case-studies/01-document-analysis.md
+      - 설명 가능한 추론: 02-knowledge-graph/03-explainable-reasoning-with-kg.md
+  - Graph RAG:
+      - Vector-only RAG의 한계: 03-graph-rag/01-limits-of-vector-only-rag.md
+      - Hybrid RAG 아키텍처: 03-graph-rag/02-hybrid-rag-architecture.md
+      - Graph Search vs Agent Search: 03-graph-rag/03-graph-search-vs-agent-search.md
+  - Agents:
+      - Agent가 필요한 이유: 04-agents/01-why-agents-are-needed.md
+      - Agent 역할 분리 전략: 04-agents/02-agent-role-separation.md
+      - LangGraph 워크플로우 설계: 04-agents/03-langgraph-workflow-design.md
+  - Case Studies:
+      - 문서 인텔리전스: 05-case-studies/01-document-intelligence.md
+      - ERP 구조적 분석: 05-case-studies/02-erp-structured-analysis.md
+      - 크로스 도메인 패턴: 05-case-studies/03-cross-domain-patterns.md
+  - References:
+      - Reading List: references/reading_list.md
 
 extra:
   social:
