@@ -26,8 +26,8 @@ Knowledge Graph, Ontology, Hybrid RAG(Vector + Graph), Agent 기반 추론을 �
 - 예외 조건, 제약, 암묵적 규칙의 누락
 - “왜 이런 답이 나왔는지” 설명 불가
 
-저희는 이런 문제들이 **모델 성능의 문제가 아니라 ‘모델링의 문제’**라고 판단했고,  
-Ontology와 Knowledge Graph를 **RAG의 제어 계층(Control Layer)**으로 사용해 왔습니다.
+저희는 이런 문제들이 **모델 성능이 아니라 '모델링'의 문제**라고 판단했고,  
+Ontology와 Knowledge Graph를 **RAG의 제어 계층(Control Layer)** 으로 사용해 왔습니다.
 
 GoRAG Lab은 이 과정에서의 판단, 시행착오, 트레이드오프를 기록합니다.
 
