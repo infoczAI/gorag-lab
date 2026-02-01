@@ -1,0 +1,72 @@
+site_name: GoRAG Lab
+site_description: Knowledge Graph & Ontology 기반 문제 해결을 실무에서 다루는 엔지니어링 플레이북
+site_author: GoRAG Team
+
+repo_name: gorag-lab
+repo_url: https://github.com/infoczAI/gorag-lab.git
+
+theme:
+  name: material
+  language: ko
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 다크 모드로 전환
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 라이트 모드로 전환
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      lang: ko
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: README.md
+  - Overview:
+      - Knowledge Graph란 무엇인가: 00-overview/01-what-is-knowledge-graph.md
+      - Ontology가 필요한 이유: 00-overview/02-why-ontology-matters.md
+      - 언제 Graph를 써야 하는가: 00-overview/03-when-to-use-graph.md
+      - 언제 Graph를 쓰지 말아야 하는가: 00-overview/04-when-not-to-use-graph.md
+  - Ontology:
+      - Ontology vs Schema vs ERD: 01-ontology/01-ontology-vs-schema.md
+      - TBox / ABox 분리의 실무적 의미: 01-ontology/02-tbox-abox-in-practice.md
+      - 도메인 모델링에서 자주 발생하는 실패: 01-ontology/03-common-ontology-modeling-mistakes.md
+  - Knowledge Graph:
+      - 개념 중심 모델링: 02-knowledge-graph/01-concept-centric-modeling.md
+      - 규칙, 제약, 계산의 표현: 02-knowledge-graph/02-relations-rules-and-constraints.md
+  # - Graph RAG:
+  #     - Vector-only RAG의 한계: 03-graph-rag/01-vector-rag-limitations.md
+  # - Agents:
+  #     - Agent 역할 분리 전략: 04-agents/01-agent-role-separation.md
+  # - Case Studies:
+  #     - 문서 분석 도메인: 05-case-studies/01-document-analysis.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yun-eun/gorag-lab
